@@ -41,7 +41,7 @@ client.once('ready', async () => {
     console.log('Started refreshing application (slash) commands.');
 
     await rest.put(
-      Routes.applicationGuildCommands(client.user.id, '<YOUR_GUILD_ID>'), // Replace with your guild ID
+      Routes.applicationGuildCommands(client.user.id, '<1472786387739742261>'), // Replace with your guild ID
       { body: commands }
     );
 
